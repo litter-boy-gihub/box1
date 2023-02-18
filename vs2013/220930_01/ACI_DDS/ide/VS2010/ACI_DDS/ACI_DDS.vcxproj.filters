@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Message">
+      <UniqueIdentifier>{16fd3894-e75f-49a6-bae0-ccff7a41c3aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Message">
+      <UniqueIdentifier>{7936187d-8bc2-4c19-9463-b6f049478a06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Element">
+      <UniqueIdentifier>{0396f624-7297-4b6a-99c0-76f086fa8e31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\DCPSEntity">
+      <UniqueIdentifier>{54c6bc55-9fd3-428f-91cf-74c920db8c88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\FACE">
+      <UniqueIdentifier>{37cb53bb-a011-4e31-bace-3e797cf9bcf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\RapidIO">
+      <UniqueIdentifier>{a6a2a63c-6394-4175-a5b1-54dcda4f3586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\utils">
+      <UniqueIdentifier>{7362cbeb-1d48-4db2-a8ac-7ed43d955a2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Qos">
+      <UniqueIdentifier>{1c850140-a3b4-40a2-9fd0-3290697b6eb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Interface">
+      <UniqueIdentifier>{43482a70-4e0f-4327-bd8d-a1da2c8c9f13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Element">
+      <UniqueIdentifier>{eefa6bf3-b629-49f9-b19a-34fc9af4d274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DCPSEntity">
+      <UniqueIdentifier>{973fd5dd-6c84-4593-b0ee-841cc782f8e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\FACE">
+      <UniqueIdentifier>{db79637f-6c92-4a2f-a47c-41d3b6d7168d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Interface">
+      <UniqueIdentifier>{1702dad6-3d47-43c6-8726-fe97af2b7991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Qos">
+      <UniqueIdentifier>{0e40fb74-0ac0-43cb-864e-d5aaf65537e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\utils">
+      <UniqueIdentifier>{e349a87f-38c1-4db2-90a8-19f1fe575169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\RTPSEntity">
+      <UniqueIdentifier>{65c105df-a77b-46a5-9e91-fe510f160e78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\RapidIO">
+      <UniqueIdentifier>{bf165044-6b06-4455-8019-ca388170b664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\RTPSEntity">
+      <UniqueIdentifier>{27a8235f-b0a9-4db5-88e3-04993d3247fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\HS_FC">
+      <UniqueIdentifier>{fcfab268-075d-421d-a84a-c8eed1cb41a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\CommonTypeDefine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\GlobalDefine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\GuidGen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\GUID_t.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Monitor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\NetWorkStructure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\NetWorkUnity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\ReturnCode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\AckNack.h">
+      <Filter>头文件\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Data.h">
+      <Filter>头文件\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\DataFrag.h">
+      <Filter>头文件\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Gap.h">
+      <Filter>头文件\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\InfoDestination.h">
+      <Filter>头文件\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\InfoReply.h">
+      <Filter>头文件\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\InfoTimestamp.h">
+      <Filter>头文件\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Heartbeat.h">
+      <Filter>头文件\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\VendorId_t.h">
+      <Filter>头文件\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\SequenceNumber_t.h">
+      <Filter>头文件\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\SequenceNumberSet.h">
+      <Filter>头文件\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\FragmentNumber.h">
+      <Filter>头文件\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\FragmentNumberSet.h">
+      <Filter>头文件\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Duration_t.h">
+      <Filter>头文件\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\ParameterList.h">
+      <Filter>头文件\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Locator_t.h">
+      <Filter>头文件\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\SerializedData.h">
+      <Filter>头文件\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\NackFrag.h">
+      <Filter>头文件\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\DataWriter.h">
+      <Filter>头文件\DCPSEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\DataReader.h">
+      <Filter>头文件\DCPSEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\DomainParticipant.h">
+      <Filter>头文件\DCPSEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\FACE\common.h">
+      <Filter>头文件\FACE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\FACE\IOS.h">
+      <Filter>头文件\FACE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\FACE\HMFM.h">
+      <Filter>头文件\FACE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\FACE\TS_common.h">
+      <Filter>头文件\FACE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\FACE\types.h">
+      <Filter>头文件\FACE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\FACE\TypeAbstraction_TS.h">
+      <Filter>头文件\FACE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\RapidIO\tsi721ioctl.h">
+      <Filter>头文件\RapidIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\RapidIO\tsi721api.h">
+      <Filter>头文件\RapidIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\RapidIO\RioUtility.h">
+      <Filter>头文件\RapidIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\BuiltinEndpointSet_t.h">
+      <Filter>头文件\RTPSEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\CDRTool.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\CommLog.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\ConfFile.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\DiscoveredParticipant.h">
+      <Filter>头文件\RTPSEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\DiscoveredReader.h">
+      <Filter>头文件\RTPSEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\DiscoveredWriter.h">
+      <Filter>头文件\RTPSEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\HistoryCache.h">
+      <Filter>头文件\RTPSEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\MemoryAlloc.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\MemoryBlock.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\RTPSMessageHeader.h">
+      <Filter>头文件\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Topic.h">
+      <Filter>头文件\DCPSEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\RTPSDiscovery.h">
+      <Filter>头文件\RTPSEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Sedp.h">
+      <Filter>头文件\RTPSEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Spdp.h">
+      <Filter>头文件\RTPSEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\QosPolicy.h">
+      <Filter>头文件\Qos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\QosService.h">
+      <Filter>头文件\Qos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\TimeTool.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\SubMessageHeader.h">
+      <Filter>头文件\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\ListOper.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\PropertyList.h">
+      <Filter>头文件\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\ProtocolVersion_t.h">
+      <Filter>头文件\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\StringUnity.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\ProcessUnity.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\BoundedString.h">
+      <Filter>头文件\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\ddsdrv.h">
+      <Filter>头文件\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\FcNetApi.h">
+      <Filter>头文件\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\RTPSReceiveStrategy.h">
+      <Filter>头文件\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\ParticipantData.h">
+      <Filter>头文件\DCPSEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\ParticipantProxy.h">
+      <Filter>头文件\DCPSEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\BuiltinDataWriter.h">
+      <Filter>头文件\RTPSEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\BuiltinDataReader.h">
+      <Filter>头文件\RTPSEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\User.h">
+      <Filter>头文件\RTPSEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\NetWorkOrder.h">
+      <Filter>头文件\RTPSEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\MajorTask.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\StaticMatch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\HS_FC\fc_api.h">
+      <Filter>头文件\HS_FC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\HS_FC\precomp.h">
+      <Filter>头文件\HS_FC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\HS_FC\typedef.h">
+      <Filter>头文件\HS_FC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\TS_Lib.h">
+      <Filter>头文件\Interface</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\source\GenGuid.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\GUID_t.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Monitor.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\NetWorkStructure.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\NetWorkUnity.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\GlobaFun.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\BuiltinDataWriter.c">
+      <Filter>源文件\DCPSEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\BuiltinDataReader.c">
+      <Filter>源文件\DCPSEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\DataReader.c">
+      <Filter>源文件\DCPSEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\DataWriter.c">
+      <Filter>源文件\DCPSEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\DomainParticipant.c">
+      <Filter>源文件\DCPSEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Topic.c">
+      <Filter>源文件\DCPSEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\BuiltinEndpointSet_t.c">
+      <Filter>源文件\RTPSEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\CommLog.c">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ConfFile.c">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ddsdrv.c">
+      <Filter>源文件\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\DiscoveredWriter.c">
+      <Filter>源文件\RTPSEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\DiscoveredParticipant.c">
+      <Filter>源文件\RTPSEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\DiscoveredReader.c">
+      <Filter>源文件\RTPSEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Duration_t.c">
+      <Filter>源文件\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\fc_adapter.c">
+      <Filter>源文件\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\FragmentNumber.c">
+      <Filter>源文件\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\HistoryCache.c">
+      <Filter>源文件\RTPSEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\MemoryAlloc.c">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Sedp.c">
+      <Filter>源文件\RTPSEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Spdp.c">
+      <Filter>源文件\RTPSEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\RTPSMessageHeader.c">
+      <Filter>源文件\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\RTPSReceiveStrategy.c">
+      <Filter>源文件\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ParameterList.c">
+      <Filter>源文件\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ProtocolVersion_t.c">
+      <Filter>源文件\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\PropertyList.c">
+      <Filter>源文件\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ProcessUnity.c">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\RioUtility.c">
+      <Filter>源文件\RapidIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\StringUnity.c">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\VendorId_t.c">
+      <Filter>源文件\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\SequenceNumber_t.c">
+      <Filter>源文件\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\TypeAbstraction_TS.c">
+      <Filter>源文件\FACE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\QosService.c">
+      <Filter>源文件\Qos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\RTPSDiscovery.c">
+      <Filter>源文件\RTPSEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\NetWorkOrder.c">
+      <Filter>源文件\RTPSEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\User.c">
+      <Filter>源文件\RTPSEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\MajorTask.c">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\StaticMatch.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\TS_Lib.c">
+      <Filter>源文件\Interface</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

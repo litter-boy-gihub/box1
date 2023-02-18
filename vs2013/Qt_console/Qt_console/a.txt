@@ -1,0 +1,10 @@
+liu man 1.23
+li woman 4.5
+san man 3.15
+hack woman 4.23
+jumen man 7.28
+hea woman 1.12
+whilt man 2.4
+cheng woman 7.1
+jim woman 12.16
+tom woman 9.18

@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B12702AD-ABFB-343A-A199-8E24837244A3}</ProjectGuid>
+    <Keyword>Qt4VS</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup Condition="'$(QtMsBuild)'=='' or !Exists('$(QtMsBuild)\qt.targets')">
+    <QtMsBuild>$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>./;$(IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.props')">
+    <Import Project="$(QtMsBuild)\qt.props" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>QT_QML_DEBUG;</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\workspace\vs2013\QtGuiApplication1\QtGuiApplication1\x64\Debug;./;$(SolutionDir)$(Platform)\$(Configuration)\;$(Platform)\$(Configuration)\;D:\workspace\vs2013\QtGuiApplication1\QtGuiApplication1\GeneratedFiles;D:\Qt\Qt5.10.0\5.10.0\msvc2013_64\include\QtWidgets;D:\Qt\Qt5.10.0\5.10.0\msvc2013_64\include\QtGui;D:\Qt\Qt5.10.0\5.10.0\msvc2013_64\include\QtCore;D:\Qt\Qt5.10.0\5.10.0\msvc2013_64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>D:\Qt\Qt5.10.0\5.10.0\msvc2013_64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>qtmaind.lib;Qt5Core.lib;Qt5Guid.lib;Qt5Widgetsd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <QtMoc>
+      <IncludePath>D:\workspace\vs2013\QtGuiApplication1\QtGuiApplication1\x64\Debug;.;$(SolutionDir)$(Platform)\$(Configuration)\.;$(Platform)\$(Configuration)\.;D:\workspace\vs2013\QtGuiApplication1\QtGuiApplication1\GeneratedFiles;D:\Qt\Qt5.10.0\5.10.0\msvc2013_64\include\QtWidgets;D:\Qt\Qt5.10.0\5.10.0\msvc2013_64\include\QtGui;D:\Qt\Qt5.10.0\5.10.0\msvc2013_64\include\QtCore;D:\Qt\Qt5.10.0\5.10.0\msvc2013_64\include</IncludePath>
+      <Define>QT_QML_DEBUG</Define>
+    </QtMoc>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>QT_QML_DEBUG;</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\workspace\vs2013\QtGuiApplication1\QtGuiApplication1\GeneratedFiles;D:\workspace\vs2013\QtGuiApplication1\QtGuiApplication1\x64\Debug\uic;D:\Qt\Qt5.10.0\5.10.0\msvc2015\include\QtWidgets;D:\Qt\Qt5.10.0\5.10.0\msvc2015\include\QtGui;D:\Qt\Qt5.10.0\5.10.0\msvc2015\include\QtCore;D:\Qt\Qt5.10.0\5.10.0\msvc2015\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>QT_QML_DEBUG;</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>D:\Qt\Qt5.10.0\5.10.0\msvc2015\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <QtMoc>
+      <IncludePath>D:\workspace\vs2013\QtGuiApplication1\QtGuiApplication1\GeneratedFiles;D:\workspace\vs2013\QtGuiApplication1\QtGuiApplication1\x64\Debug\uic;D:\Qt\Qt5.10.0\5.10.0\msvc2015\include\QtWidgets;D:\Qt\Qt5.10.0\5.10.0\msvc2015\include\QtGui;D:\Qt\Qt5.10.0\5.10.0\msvc2015\include\QtCore;D:\Qt\Qt5.10.0\5.10.0\msvc2015\include</IncludePath>
+      <Define>QT_QML_DEBUG</Define>
+    </QtMoc>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="QtGuiApplication1.h" />
+    <ClCompile Include="QtGuiApplication1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="QtGuiApplication1.ui" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Qt5Version_x0020_x64="qt5.10.0" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
